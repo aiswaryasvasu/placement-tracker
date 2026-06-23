@@ -1,7 +1,19 @@
+import ApplicationPipeline from "./ApplicationPipeline";
+
 function StudentDashboard() {
   return (
-    <div>
-      <h1>Student Dashboard</h1>
+    <div className="page">
+      <h2>Student Dashboard</h2>
+
+      <div className="card">
+        <h3>Student Profile</h3>
+
+        <p>Name: Ria</p>
+        <p>Branch: CSE</p>
+        <p>CGPA: 8.2</p>
+      </div>
+
+      <ApplicationPipeline />
     </div>
   );
 }

@@ -1,24 +1,42 @@
 function Login() {
   return (
-    <div>
-      <h2>Login</h2>
+    <div className="landing">
 
-      <input
-        type="email"
-        placeholder="Enter Email"
-      />
+      <div className="hero">
 
-      <br /><br />
+        
 
-      <input
-        type="password"
-        placeholder="Enter Password"
-      />
+        <h3>
+          Simplifying Campus Placements
+        </h3>
 
-      <br /><br />
+        <p>
+          Manage companies, applications and placement
+          activities through one centralized platform.
+        </p>
 
-      <button>Login</button>
+      </div>
+
+      <div className="auth-card">
+
+        <h2>Sign In</h2>
+
+        <input
+          type="email"
+          placeholder="College Email"
+        />
+
+        <input
+          type="password"
+          placeholder="Password"
+        />
+
+        <button>Login</button>
+
+      </div>
+
     </div>
+    
   );
 }
 

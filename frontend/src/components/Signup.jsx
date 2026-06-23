@@ -1,30 +1,31 @@
 function Signup() {
   return (
-    <div>
-      <h2>Signup</h2>
+    <div className="auth-container">
+      <div className="auth-card">
+        <h2>Create Account</h2>
+        <p>Register for placement opportunities</p>
 
-      <input
-        type="text"
-        placeholder="Enter Name"
-      />
+        <input
+          type="text"
+          placeholder="Full Name"
+        />
 
-      <br /><br />
+        <input
+          type="email"
+          placeholder="College Email"
+        />
 
-      <input
-        type="email"
-        placeholder="Enter Email"
-      />
+        <input
+          type="password"
+          placeholder="Password"
+        />
 
-      <br /><br />
+        <button>Sign Up</button>
 
-      <input
-        type="password"
-        placeholder="Enter Password"
-      />
-
-      <br /><br />
-
-      <button>Signup</button>
+        <p className="auth-link">
+          Already have an account? Login
+        </p>
+      </div>
     </div>
   );
 }
