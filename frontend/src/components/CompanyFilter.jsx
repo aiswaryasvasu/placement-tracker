@@ -1,4 +1,4 @@
-function CompanyFilter() {
+function CompanyFilter({ setMinCgpa }) {
   return (
     <div className="card">
       <h3>Filter Companies</h3>
@@ -6,6 +6,7 @@ function CompanyFilter() {
       <input
         type="number"
         placeholder="Minimum CGPA"
+        onChange={(e) => setMinCgpa(Number(e.target.value))}
       />
 
       <br /><br />
