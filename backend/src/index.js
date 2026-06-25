@@ -18,3 +18,6 @@ const PORT = 5000;
 app.listen(PORT, () => {
     console.log(`Server is cruising on port ${PORT}`);
 });
+
+const authRoutes = require('./routes/auth.routes');
+app.use('/api/auth', authRoutes);
